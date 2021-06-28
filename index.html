@@ -1,0 +1,104 @@
+<html>
+
+
+    <head>  
+
+            <title>¡Bienvenide!</title>
+            <meta name="viewport"content ="width=device-width, user-scalable=no, initial-scale=1,maximun-scale=1,minimum-scale=1">
+            <link rel="stylesheet" href="css/fontello.css">
+            <link rel="stylesheet" href="css/estilos.css">
+            <link rel="stylesheet" href="css/menu.css">
+
+    </head>
+
+
+    <body>
+
+        <header>
+            <div class="contenedor">
+                <a href="#">
+                    <h1 class="icon-user">Inicio</h1>
+                </a>
+                
+                
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    <audio id="cancion" src="/ProyectoWeb-MartínGarro/aud/nas-if-i-ruled-the-world-imagine-that-official-audio-ft-lauryn-hill.mp3" autoplay controls loop ></audio>
+                    <script>
+                        var audio=document.getElementById("cancion");
+                        audio.volume = 0.2;
+                    </script>
+                    <a href="#presentacion">Presentacion</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#iconn">Contacto</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <section id="banner">
+                <img src="img/banner-programacion.jpg" >
+                <div class="contenedor">
+                <h2>Proyecto para el curso</h2>
+                <p>Programacion Web para personas curiosas</p>
+                
+                </div>
+            </section>
+
+            <section id="presentacion">
+                
+                <div class="conj">
+                    <h2>MI PRESENTACION</h2>                   
+                    <p>
+                        Mi nombre es Martín Garro,tengo 21 años,soy estudiante de la carrera Ingenieria 
+                        en Sistemas de la Informacion,actualmente estoy trabajando como Administrador de Redes
+                        en la escuela tecnica N°3 "Eva duarte de Peron".
+                    </p>
+                    <img src="img/perfil.jpg">
+                </div>
+                
+            </section>
+
+            <section id="blog">
+    
+                <div class="contenedor">
+                    <article>
+                        <video controls autoplay loop muted>
+                            <source src="img/colegioNacional.mp4" type="video/mp4">
+                        </video>
+                        
+                        <h4>Realice mis estudios secundarios en el colegio Nacional N°2 
+                            "Juan Esteban Pedernera"</h4>
+                    </article>
+                    <article>
+                        <video controls autoplay loop muted>
+                            <source src="img/Ingenieria-en-sistemas-FINAL.mp4" type="video/mp4">
+                        </video>                       
+                        <h4>Hoy dia me encuentro realizando mis estudios terciarios en la 
+                            Universidad de Villa Mercedes
+                        </h4>
+                    </article>
+                   
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer id="iconn">
+            <div class="contenedor">
+                <h2 class="copy">Contacto</h2>
+                <div class="sociales">
+                    <a class="icon-linkedin" href="https://www.linkedin.com/in/martin-garro-580b03170/" target="_blank"></a>
+                    <a class="icon-instagram" href="https://www.instagram.com/martin.garro_/"target="_blank"></a>
+                    <a class="icon-gplus" href="mailto:garromartinfo@gmail.com?subject=Email%20Subject&body=Email%20Body%20Text"target="_blank"></a>
+                </div>
+            </div>
+        </footer>
+        
+
+    </body>
+
+</html>

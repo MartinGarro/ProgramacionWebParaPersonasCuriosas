@@ -1,0 +1,34 @@
+#blog {
+    background: rgb(112, 92, 92);
+    box-shadow: -1px 3px 44px 17px rgba(0,0,0,0.8);
+    -webkit-box-shadow: -1px 3px 44px 17px rgba(0,0,0,0.8);
+    -moz-box-shadow: -1px 3px 44px 17px rgba(0,0,0,0.8);
+    height: 100vh;
+}
+
+#blog h4{
+    text-align:center;
+    /* width: 45%; */
+    color: white;
+
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    
+}
+
+article{
+    margin: 100px;
+    
+}
+
+#blog video{
+    border: 10px double rgb(214, 214, 214);
+    width: 600px;
+    margin-top: 10px;
+    height: 550px;
+}
+
